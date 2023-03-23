@@ -110,7 +110,7 @@ def ganador5_5(tiro):
         return False
 
  # IP del servidor
-HOST = '127.0.0.1'                                             
+HOST = '192.168.1.155'                                             
 PORT = 65432 # Puertos menores 1024, estan definidos por el SO -> 1023 son puertos de escucha
 buffer_size = 1024 # Limitar el tamño de los mensajes 
 
